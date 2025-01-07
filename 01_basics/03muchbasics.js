@@ -56,4 +56,12 @@ const obj={
 const fun= function () {
   console.log("hello world");
 }
-console.log(typeof hero);
+//console.log(typeof hero);
+
+ /*
+ MEMORY:
+
+ stack(primitive)=>call by value, duplicate value is passed
+ Heap(non primitive value)=> call by reference , pointer to value is passed)
+ 
+  */
