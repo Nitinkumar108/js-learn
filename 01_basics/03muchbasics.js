@@ -42,7 +42,7 @@ In  boolean conversion
  }*/
 const id=Symbol("123");
 const id1=Symbol("123");
-console.log(id===id1);
+//console.log(id===id1);
 
 //references
 //array
@@ -65,3 +65,19 @@ const fun= function () {
  Heap(non primitive value)=> call by reference , pointer to value is passed)
  
   */
+//STRINGS
+const name="Hare";
+//const repoCount=50;
+//console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
+ /*
+ strings :
+ name.length=>to find length
+ some more easy function
+ name.replace('H','C');//to replace character
+ name.include("hi")//to check that value
+ name.split('_')// to split string on the basis of _
+ 
+  */
+ const min=10;
+ const max=30;
+ console.log(Math.floor(Math.random()*(max-min+1))+min);
